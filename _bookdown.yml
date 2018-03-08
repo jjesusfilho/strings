@@ -1,15 +1,15 @@
 rmd_files: [
   "index.Rmd",
   "introducao.Rmd",
-  "characteres.Rmd",
-  "printing.Rmd",
-  "sprintf.Rmd",
+  "programacao.Rmd",
+  "dplyr.Rmd",
+  "characteres1.Rmd",
+  "impressao.Rmd",
+  "glue.Rmd",
   "entradas_saidas.Rmd",
-  "basic-manipulations.Rmd",
-  "stringr-basics.Rmd",
   "estudo_de_casos.Rmd",
   "regex1.Rmd",
-  "character-sets.Rmd"
+  "conjuntos.Rmd"
 ]
 
 before_chapter_script: "_common.R"

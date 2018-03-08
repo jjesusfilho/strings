@@ -1,0 +1,22 @@
+# (PART) Formatting {-}
+
+# Formatando textos e números
+
+## Introdução
+
+
+
+
+## Imprimindo e formatando
+
+
+
+| Função       | Descrição            |
+|:-------------|:---------------------|
+| `print()`    | generic printing     |
+| `noquote()`  | print with no quotes |
+| `cat()`      | concatenation        |
+| `format()`   | special formats      |
+| `toString()` | convert to string    |
+| `sprintf()`  | C-style printing     |
+
