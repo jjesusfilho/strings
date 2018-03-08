@@ -23,7 +23,7 @@ paste("Universidade", "de", "São", "Paulo", NULL, character(0),
       "é excelente")
 ```
 
-Note a resposta do último exemplo (denominada _feia_). Os objetos `NULL` e `character(0)` têm tamanho zero, mas são tratados como se fossem uma *string* vazia `""`. Não seria melhor se `paste()` removesse os argumentos de tamanho zero? Infelizmente não há que podemos fazer para alterar esse comportamento. No entanto, o tidyverse oferece um pacote excelente para resolver esse problema.
+Note a resposta do último exemplo (denominada _feia_). Os objetos `NULL` e `character(0)` têm tamanho zero, mas são tratados como se fossem uma *string* vazia `""`. Não seria melhor se `paste()` removesse os argumentos de tamanho zero? Infelizmente não há o que podemos fazer para alterar esse comportamento. No entanto, o tidyverse oferece um pacote excelente para resolver esse problema.
 
 ## Pacote `stringr`
 

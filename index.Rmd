@@ -1,5 +1,5 @@
 --- 
-title: "Trabalhando com strings no R"
+title: "Trabalhando com caracteres e textos no R"
 author: "José de Jesus Filho"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,16 +9,14 @@ bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 always_allow_html: yes
-github-repo: jjesusfilho/r4strings
+github-repo: jjesusfilho/strings
 ---
 
 # Prefácio {-}
 
+Diferentemente de linguagens genéricas, como Python e Java, o *R* é uma linguagem específica. A procura pelo R geralmente se dá por quem já possui conhecimentos sobre uma área específica e sabe rodar modelos estatísticos e de machine learning. No entanto, percebem que o tempo tomado para rodar o modelo raramente passa de 5% do trabalho análise de dados. O grande vilão do analista é deixar os dados prontos para a análise. Em outras palavras, coletar, organizar, limpar e estruturar dados que estão dispersos e desestruturados, toma mais tempo do que gerar tabelas, plotar gráficos e rodar modelos. Quando esses dados estão em formato de *strings*, ainda pior.
 
-Este livro foi escrito inspirado em livro similar de [Gaston Sanchez](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj3wenvncfWAhXDgpAKHUokDqkQFggoMAA&url=http%3A%2F%2Fgastonsanchez.com%2FHandling_and_Processing_Strings_in_R.pdf&usg=AFQjCNG6I-wYccJNLu_ZKaeqbxqF8-Ez3g) e nas minha experiência diária trabalhando com *strings*. O diferencial desse livre é que ele utiliza, com algumas pequenas exceções, a filosofia *tidyverse*. Assim, em vez de usar as funções do R Base, tais como *paste* e *sprintf*, utilizaremos as respectivas funções do pacote *stringr*: *str_c* e *str_interp*.
-
-Optamos por trabalhar inteiramente com o *tidyverse* porque este apresenta um conjunto de pacotes coerentes entre si e melhor legibilidade dos códigos. 
-
+Este livro foi escrito para preecher esta lacuna. Ele foi inspirado em livro similar de [Gaston Sanchez](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj3wenvncfWAhXDgpAKHUokDqkQFggoMAA&url=http%3A%2F%2Fgastonsanchez.com%2FHandling_and_Processing_Strings_in_R.pdf&usg=AFQjCNG6I-wYccJNLu_ZKaeqbxqF8-Ez3g) e baseou-se na minha tarefa cotidiana trabalhando com *strings*.
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

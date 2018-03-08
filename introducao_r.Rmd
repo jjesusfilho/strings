@@ -1,0 +1,61 @@
+# Introdução ao R {-}
+
+Antes de entrar no manuseio de strings, é importante introduzir os conceitos e operações básicos de programação no R. Familiarizar-se com os conceitos básicos é fundamental para prosseguir nas próximas etapas. Ao final desse capítulo, você deverá ser capaz de operar com as seguintes estruturas:
+
+1. Funções no R e seus argumentos
+2. Objetos no R
+3. Tipos básicos do R
+4. Pacotes no R
+
+## Funções no R
+
+O R opera por meio da chamada de funções. Por exemplo, para calcular a raiz quadrada de um número, você usa a função `sqrd`:
+
+```{r eval=FALSE}
+sqrd(4)
+```
+
+Está função irá produzir o número dois no console do R. É assim que opera a maioria das funções no R. Se você associar o resultado a um nome, em vez de mostrar o resultado no console, esta função irá alojar o resultado no nome que você der. Para ver o resultado, você deve imprimi-lo no console, usando a função `print` ou simplesmente digitando o objeto:
+
+```{r}
+a <- sqrd(9)
+print(a) 
+```
+
+Se você chamar a função sem os parênteses, o R irá mostrar o código utilizado quando você chama a função:
+
+```{r}
+factorial
+```
+
+Então, para chamar uma função, você sempre deve utilizar parênteses. Dentro deles, você deve colocar os argumentos da função. Veremos isso no próximo tópico. Se você quer saber para que serve e como opera uma função, você deve colocar o símbolo de interrogação antes da função, sem necessidade de incluir os parênteses:
+
+```{r}
+?sqrt
+```
+
+## Argumentos
+
+As entradas que você coloca dentro dos parênteses são chamadas de argumentos. Algumas função não requerem argumento, por exemplo, se você quer imprimir a data de hoje no console, basta usar a função `Sys.Date()` sem nenhum argumento:
+
+```{r}
+Sys.Date()
+```
+
+Outras funções requerem somente um argumento. No exemplo a seguir, a função `abs` irá calcular o valor absoluto do valor fornecido:
+
+```{r}
+abs(-5)
+```
+
+Outras funções requerem múltiplos argumentos. Por exemplo, a função `rep` (replicar) recebe apenas um argumento, mas faz mais sentido fornecer ao menos um segundo argumento, indicando quantas vezes quero replicar o primeiro:
+
+```{r}
+# Irá replicar o número quatro cinco vezes.
+rep(4,5)
+```
+
+Você deve ter notado que eu coloquei a cerquilha (#), também conhecida como "jogo da velha" ou "tralha" no Brasil e "cardinal" em Portugal, antes de uma expressão. A `#` no R indica que o que vem imediatamente após ela não será avaliado, ou seja, o R não irá rodar, mesmo que você coloque uma função.
+
+
+

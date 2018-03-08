@@ -1,7 +1,7 @@
 rmd_files: [
   "index.Rmd",
-  "introduction.Rmd",
-  "characters.Rmd",
+  "introducao.Rmd",
+  "characteres.Rmd",
   "printing.Rmd",
   "sprintf.Rmd",
   "input-output.Rmd",

@@ -1,10 +1,11 @@
-# (PART) Characters {-}
+# (PART) Characteres {-}
 
-# Character Strings in R {#chars}
+# Estrutura de dados no R {#chars}
 
 ## Introdução
 
-Nesse capítulo vamos aprender a criar e manusear objetos. No *R* os objetos podem ser classificados em __class__ ou __mode__. __Mode__ são classificações mutuamente exclusivas de acordo com sua estrutura básica. __Class__ são classificações atribuída a objetos para indicar como as funções irão operar com ela. Assim, 1 pode ter __class__ character, factor ou numeric, mas somente terá __modes__ character ou numeric.
+
+Nesse capítulo vamos aprender a criar e manusear objetos. No *R* os objetos podem ser classificados em __class__ ou __mode__. __Mode__ são classificações mutuamente exclusivas de acordo com sua estrutura básica. __Class__ são classificações atribuídas a objetos para indicar como as funções irão operar eles. Assim, 1 pode ter __class__ character, factor ou numeric, mas somente terá __modes__ character ou numeric.
 
 Cada __class__ de objetos no *R* 
 In R, a piece of text is represented as a sequence of characters (letters, 

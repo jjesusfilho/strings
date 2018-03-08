@@ -1,10 +1,8 @@
-# Introdução {#intro}
+# Introdução {-}
 
-Este livro foi escrito inspirado em livro similar do professor Gaston Sanchez 
-e na minha experiência diária manipulando strings e orientado pessoas com as 
-que passaram pela mesma experiência. 
+Este livro foi escrito para um público muito específico: lusófonos que trabalham com o *R* e cujo texto como objeto de análise não é o seu foco, mas sim uma fonte de dados que serão organizados para análise estatística ao lado de outras classes de objetos, tais como números, fatores e datas.
 
-O analista de dados ocupa de 50 a 80% do seu tempo na coleta e no manuseio dos dados: extração, organização, conversão, transformação e sumarização. Parte significativa desse tempo é tomado com o trabalho de manuseio de *strings*. Ocorre que encontramos poucas obras ensinando como fazer isso de forma sistemática. Eu mesmo aprendi conforme a necessidade foi surgindo, buscando no Google soluções para os problemas que apareciam. Mas não tem de ser só assim. Se você tem um bom conhecimento das ferramentas disponibilizadas pelo *R* para manusear strings, você vai economizar muito do seu tempo nessa fase da preparação dos dados para posterior análise.
+O analista de dados ocupa de 50 a 80% do seu tempo na coleta e no manuseio dos dados: extração, organização, conversão, transformação e sumarização. Parte significativa desse tempo é tomada com o trabalho de manuseio de *strings*. Ocorre que encontramos poucas obras ensinando como fazer isso de forma sistemática. Eu mesmo aprendi conforme a necessidade foi surgindo. Mas não tem de ser só assim. Se você tem um bom conhecimento das ferramentas disponibilizadas pelo *R* para manusear strings, você vai economizar muito do seu tempo nessa fase da preparação dos dados para posterior análise.
 
 Quando extraímos dados crus nos deparamos com uma série de desafios tais como: ajustar a codificação, e.g., você importou os dados para o R e a palavra  "médico" veio como "mÃ©dico",  você precisa retirar todos os acentos das palavras de um texto, você quer juntar vários caracteres ou textos num só, quer extrair ou substituir um caracter, palavra ou trecho de um texto etc. Tudo isso pode ser feito com certa facilidade uma vez que você se familiarize com o conjunto de ferramentas disponibilizada pelo *R*.
 
@@ -17,21 +15,18 @@ Este livro é destinado a todos aqueles que trablham com texto ou vetores de car
 - realizar conversões: colocar caracteres em minúsculo ou maíusculo e retirar acentos Maybe - trabalhar com formatos xml e html
 - Realizar tudo isso em múltiplos objetos
 
-
-
 ### Estrutura do livro
 
 O livro está dividido em seis grandes partes:
 
 1. Familiarizando-se com o manuseio de strings
 2. Formatação e impressão de textos e números
-3. Input and output
+3. Entrada e saída
 4. Manuseio básico de strings
 5. Trabalhando com expressões regulares
+6. Estudo de casos
 
 O livro é bem introdutório e não requer conhecimento prévio do R. É importante que ele esteja instalado e eu recomendo que você o utilize por meio do *Rstudio*. 
-
-
 
 ```{r echo = FALSE}
 sessionInfo()

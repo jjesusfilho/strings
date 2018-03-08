@@ -4,11 +4,11 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./">Handling Strings in R</a></li>
+        <li><a href="./">Trabalhando com strings no R</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit:
-      link: https://github.com/gastonstat/r4strings/edit/master/%s
+      link: https://github.com/jjesusfilho/strings/edit/master/%s
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
