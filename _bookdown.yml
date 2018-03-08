@@ -4,10 +4,10 @@ rmd_files: [
   "characteres.Rmd",
   "printing.Rmd",
   "sprintf.Rmd",
-  "input-output.Rmd",
+  "entradas_saidas.Rmd",
   "basic-manipulations.Rmd",
   "stringr-basics.Rmd",
-  "basic-examples.Rmd",
+  "estudo_de_casos.Rmd",
   "regex1.Rmd",
   "character-sets.Rmd"
 ]

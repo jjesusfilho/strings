@@ -1,4 +1,4 @@
-# Input and Output
+# Entradas e saídas de textos
 
 
 

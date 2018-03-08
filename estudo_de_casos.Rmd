@@ -1,0 +1,13 @@
+# Estudos de caso
+
+
+# Introdução
+
+Este capítulo apresenta estudos de casos mais elaborados. Aqui passamos da abstração para o concreto. Iremos trabalhar com um caso da  Justiça, ou seja, extração de dados de decisões judiciais; um caso de extração de dados de formulários preenchidos e um caso de extração de dados do bolanço patrimonial de uma empresa.
+
+## Extraindo dados de decisões judiciais
+
+## Extraindo dados de formulários por usuários
+
+## Extraindo dados de um balanço patrimoninal da NATURA
+

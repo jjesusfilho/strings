@@ -1,8 +1,8 @@
 # (PART) Regex {-}
 
-# Regular Expressions {#regex1}
+# Expressões regulares {#regex1}
 
-## Introduction
+## Introdução
 
 So far you have learned some basic and intermediate functions for handling and 
 working with text in R. These are very useful functions and they allow you 
