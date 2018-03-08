@@ -1,5 +1,5 @@
 rmd_files: [
-  "index.rmd",
+  "index.Rmd",
   "introduction.Rmd",
   "characters.Rmd",
   "printing.Rmd",

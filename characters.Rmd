@@ -2,12 +2,11 @@
 
 # Character Strings in R {#chars}
 
-## Introduction
+## Introdução
 
-This chapter introduces you to the basic concepts for creating character
-vectors and character strings in R. You will also learn how R treats objects 
-containing characters.
+Nesse capítulo vamos aprender a criar e manusear objetos. No *R* os objetos podem ser classificados em __class__ ou __mode__. __Mode__ são classificações mutuamente exclusivas de acordo com sua estrutura básica. __Class__ são classificações atribuída a objetos para indicar como as funções irão operar com ela. Assim, 1 pode ter __class__ character, factor ou numeric, mas somente terá __modes__ character ou numeric.
 
+Cada __class__ de objetos no *R* 
 In R, a piece of text is represented as a sequence of characters (letters, 
 numbers, and symbols). The data type R provides for storing sequences of 
 characters is _character_. Formally, the __mode__ of an object that holds 
@@ -16,13 +15,15 @@ character strings in R is `"character"`.
 You express character strings by surrounding text within double quotes:
 
 ```{r eval=FALSE}
-"a character string using double quotes"
+a<-"uma string de carácteres com aspas"
+print(a)
 ```
 
 or you can also surround text within single quotes:
 
 ```{r eval=FALSE}
-'a character string using single quotes'
+b<-'uma string de carácteres com apóstrofe'
+print(b)
 ```
 
 The important thing is that you must match the type of quotes that your are 
@@ -34,8 +35,8 @@ you are going to create objects or variables containing some strings. For
 example, you can create a variable `string` that stores some string:
 
 ```{r}
-string <- 'do more with less'
-string
+cc <- 'você pode usar acentuação'
+cc
 ```
 
 Notice that when you print a character object, R displays it using double 
