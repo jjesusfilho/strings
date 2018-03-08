@@ -1,11 +1,11 @@
-# Handling Strings in R
+# Trabalhando com caracteres no R
 
-This repository contains the text and code of the book __Handling Strings in R__.
+Este repositório contêm texto e códigos do livro __Trabalhando com caracteres e textos no R__.
 
 
 ## Author
 
-[Gaston Sanchez](http://gastonsanchez.com)
+[José de Jesus Filho](http://josejesus.info)
 
 
 ## License
